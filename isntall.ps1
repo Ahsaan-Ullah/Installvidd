@@ -17,7 +17,7 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 # Configuration
-$downloadURL = "https://www.qsrtools.shop/vidd_beta.zip"
+$downloadURL = "https://qsrtools.shop/vidd_beta.zip"
 $archiveFile = "$env:TEMP\vidd_beta.zip"
 $extractFolder = "C:\vidd_exe"
 $exeName = "ViDD.exe"
